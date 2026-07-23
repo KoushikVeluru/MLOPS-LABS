@@ -5,12 +5,6 @@
 This repository contains the lab experiments performed as part of the
 **MLOps** course.
 
-### Lab Structure
-
--   Lab-01-Git-Basics
--   Lab-02
--   Lab-03
--   Lab-04
 
 ### Student Details
 
