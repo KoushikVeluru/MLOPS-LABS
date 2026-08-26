@@ -1,0 +1,18 @@
+{
+    "image_name": "iris-ml-api",
+    "base_image": "python:3.10-slim",
+    "working_directory": "/app",
+    "application": "FastAPI",
+    "model": "RandomForestClassifier",
+    "model_file": "model.pkl",
+    "application_file": "main.py",
+    "port": 8000,
+    "command": [
+        "uvicorn",
+        "main:app",
+        "--host",
+        "0.0.0.0",
+        "--port",
+        "8000"
+    ]
+}
